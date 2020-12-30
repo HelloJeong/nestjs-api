@@ -59,8 +59,13 @@
 - 서비스에서 분리된 유닛을 테스팅
   - getAll() function 하나만 테스팅 하고 싶을 때나, 다른 함수 등등
 - `jest` : js를 테스팅하는 npm 패키지
+- `*.spec.ts` 파일들은 유닛 테스팅을 위한 파일
+- `npm run test:?`
+- `beforeEach`, `AfterEach`, `beforeAll`, `afterAll` 등.
+  - `afterAll`은 db 정리하거나, 등등.
 
 ### E2E(End-to-End) Testing
 
 - 모든 시스템을 테스팅(유저 관점)
   - 특정 페이지에 접속하면 페이지가 나와야 하는 경우 등
+- `test` 폴더에 있는 파일
