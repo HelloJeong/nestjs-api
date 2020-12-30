@@ -1,5 +1,5 @@
 import { PartialType } from '@nestjs/mapped-types';
-import { IsNumber, IsString } from 'class-validator';
+// import { IsNumber, IsString } from 'class-validator';
 import { CreateMovieDto } from './create-movie.dto';
 
 // 필수하진 않음

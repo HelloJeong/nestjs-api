@@ -13,7 +13,7 @@
 
 ## Note
 
-- <b>필요한 것이 있다면 nest에게 반드시 `요청`해야 한다.</b>
+- **필요한 것이 있다면 nest에게 반드시 `요청`해야 한다.**
 
 - `@~()` : Decorator. 클래스에 함수 기능을 추가할 수 있음. 꾸며주는 함수나 클래스랑 붙어이었야 됨(빈 칸을 두면 안됨)
 
@@ -51,5 +51,5 @@
 
 ### REST API
 
-- <b>`Single-reponsibility principle`</b>
+- **`Single-reponsibility principle`**
   - 하나의 module, class 혹은 function이 하나의 기능은 꼭 책임져야 한다.
