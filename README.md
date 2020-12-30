@@ -53,3 +53,14 @@
 
 - **`Single-reponsibility principle`**
   - 하나의 module, class 혹은 function이 하나의 기능은 꼭 책임져야 한다.
+
+### Unit Testing
+
+- 서비스에서 분리된 유닛을 테스팅
+  - getAll() function 하나만 테스팅 하고 싶을 때나, 다른 함수 등등
+- `jest` : js를 테스팅하는 npm 패키지
+
+### E2E(End-to-End) Testing
+
+- 모든 시스템을 테스팅(유저 관점)
+  - 특정 페이지에 접속하면 페이지가 나와야 하는 경우 등
