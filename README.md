@@ -5,6 +5,7 @@
 <br>
 
 - `npm i -g @nestjs/cli`
+  - wsl2의 경우 `sudo npm i -g @nestjs/cli`
 - `nest new project-name`
 
 ## Note
@@ -15,5 +16,5 @@
 
 - `AppModule`
 
-  - `controllers` : url을 가져오고 함수를 실행(node.js = express 라우터 같은)
+  - `controllers` : url을 가져오고 함수를 실행(express 라우터 같은)
     - 함수를 실행하는 곳은 `AppService`(비지니스 로직을 실행하는 역할)
