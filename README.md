@@ -41,7 +41,13 @@
   - express 미들웨어 같은,
 
 - `@IsString({each : true})`
+
   - `{each: true}` : 모든 요소를 하나씩 검사
+
+- nestjs는 express 위에서 동작하기 때문에 req, res에 접근 가능(`@Req() @Res()`)
+  - nestjs는 express + fastify 두 개의 프레임워크 위에서 동작하기 때문
+  - 따라서 직접적인 접근은 지양
+  - nestjs가 때에 따라(?) express <-> fastify
 
 ### REST API
 
